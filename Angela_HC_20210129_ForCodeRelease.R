@@ -2128,6 +2128,29 @@ boxplot(GeneY~GroupingVariable, ylab="Hba-a2 Cpm", col="grey")
 stripchart(GeneY~GroupingVariable, vertical = TRUE,  method = "jitter", add = TRUE, pch = 20, col = 'red')
 dev.off()
 
+#Making a version that matches the formatting for the behavior/hormone figures:
+
+GeneY<-HC_RNASeq_Log2_Filtered[which(HC_RNASeq_Log2_Annotated$gene_symbol=="Pcdhb8"),]
+
+pdf("Pcdhb8_Prettier2_vs_Group_v4.pdf", width=7, height=7)
+boxplot(GeneY~GroupingVariable_Factor, ylab="Pcdhb8 Log2 Cpm", col=c("red1", "red4", "red1", "red4"))
+stripchart(GeneY~GroupingVariable_Factor, vertical = TRUE,  method = "jitter", add = TRUE, pch = c(1, 2, 16, 17), cex=2, cex.axis=10, cex.lab=10, col = 'black')
+dev.off()
+
+GeneY<-HC_RNASeq_Log2_Filtered[which(HC_RNASeq_Log2_Annotated$gene_symbol=="Pcdhb5"),]
+
+pdf("Pcdhb5_Prettier2_vs_Group_v4.pdf", width=7, height=7)
+boxplot(GeneY~GroupingVariable_Factor, ylab="Pcdhb5 Log2 Cpm", col=c("red1", "red4", "red1", "red4"))
+stripchart(GeneY~GroupingVariable_Factor, vertical = TRUE,  method = "jitter", add = TRUE, pch = c(1, 2, 16, 17), cex=2, cex.axis=10, cex.lab=10, col = 'black')
+dev.off()
+
+GeneY<-HC_RNASeq_Log2_Filtered[which(HC_RNASeq_Log2_Annotated$gene_symbol=="RT1-N2"),]
+
+pdf("RT1-N2_Prettier2_vs_Group_v4.pdf", width=7, height=7)
+boxplot(GeneY~GroupingVariable_Factor, ylab="RT1-N2 Log2 Cpm", col=c("red1", "red4", "red1", "red4"))
+stripchart(GeneY~GroupingVariable_Factor, vertical = TRUE,  method = "jitter", add = TRUE, pch = c(1, 2, 16, 17), cex=2, cex.axis=10, cex.lab=10, col = 'black')
+dev.off()
+
 ##########################
 
 library(fgsea)
