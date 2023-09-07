@@ -3565,6 +3565,30 @@ boxplot(GeneY~GroupingVariable_Factor, ylab="Fos Log2 Cpm", col=c("darkorange2",
 stripchart(GeneY~GroupingVariable_Factor, vertical = TRUE,  method = "jitter", add = TRUE, pch = c(20, 1, 17, 2), cex=2, cex.axis=10, cex.lab=10, col = 'black')
 dev.off()
 
+
+#Making a version that matches the formatting for the behavior/hormone figures:
+
+GeneY<-NACC_RNASeq_Log2_Filtered[which(NACC_RNASeq_Log2_Annotated$gene_symbol=="Pcdhb8"),]
+
+pdf("Pcdhb8_Prettier2_vs_Group_v4.pdf", width=7, height=7)
+boxplot(GeneY~GroupingVariable_Factor, ylab="Pcdhb8 Log2 Cpm", col=c("red1", "red4", "red1", "red4"))
+stripchart(GeneY~GroupingVariable_Factor, vertical = TRUE,  method = "jitter", add = TRUE, pch = c(1, 2, 16, 17), cex=2, cex.axis=10, cex.lab=10, col = 'black')
+dev.off()
+
+GeneY<-NACC_RNASeq_Log2_Filtered[which(NACC_RNASeq_Log2_Annotated$gene_symbol=="Pcdhb5"),]
+
+pdf("Pcdhb5_Prettier2_vs_Group_v4.pdf", width=7, height=7)
+boxplot(GeneY~GroupingVariable_Factor, ylab="Pcdhb5 Log2 Cpm", col=c("red1", "red4", "red1", "red4"))
+stripchart(GeneY~GroupingVariable_Factor, vertical = TRUE,  method = "jitter", add = TRUE, pch = c(1, 2, 16, 17), cex=2, cex.axis=10, cex.lab=10, col = 'black')
+dev.off()
+
+GeneY<-NACC_RNASeq_Log2_Filtered[which(NACC_RNASeq_Log2_Annotated$gene_symbol=="RT1-N2"),]
+
+pdf("RT1-N2_Prettier2_vs_Group_v4.pdf", width=7, height=7)
+boxplot(GeneY~GroupingVariable_Factor, ylab="RT1-N2 Log2 Cpm", col=c("red1", "red4", "red1", "red4"))
+stripchart(GeneY~GroupingVariable_Factor, vertical = TRUE,  method = "jitter", add = TRUE, pch = c(1, 2, 16, 17), cex=2, cex.axis=10, cex.lab=10, col = 'black')
+dev.off()
+
 ###########################
 
 #Cell type analyses:
