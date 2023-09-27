@@ -1,6 +1,6 @@
 # Code Repository: bHRbLR_Enrichment_Stress_RNASeqData
 
-This repository includes the code for the analysis of RNA-Seq data from the nucleus accumbens (NACC) and hippocampus (HC) within the publication "Adolescent social and environmental enrichment produces long-term increases in social resilience in a genetic rodent model of stress vulnerability: Impact on behavior, circulating hormones, and brain gene expression" by *Angela M. O'Connor, *Megan H. Hagenauer, Liam Cannon Thew Forrester, Pamela Maras, Keiko Arakawa, Huzefa Khalil, Evelyn R. Richardson, Elaine K. Hebda-Bauer, Farizah I. Rob, Yusra Sannah, Stanley J. Watson, Jr., Huda Akil. (DOI: TBA)
+This repository includes the code for the analysis of RNA-Seq data from the nucleus accumbens (NACC) and hippocampus (HC) within the publication "Adolescent environmental enrichment induces social resilience and alters neural gene expression in a selectively bred rodent model with anxious phenotype" by *Angela M. O'Connor, *Megan H. Hagenauer, Liam Cannon Thew Forrester, Pamela Maras, Keiko Arakawa, Huzefa Khalil, Evelyn R. Richardson, Elaine K. Hebda-Bauer, Farizah I. Rob, Yusra Sannah, Stanley J. Watson, Jr., Huda Akil. (DOI: TBA)
 
 This repository was created by Megan H. Hagenauer (ORCID: 0000-0002-3715-9475). This work was completed at the University of Michigan between 10/2019-09/2023.
 
@@ -43,9 +43,9 @@ https://github.com/hagenaue/bHRbLR_Enrichment_Stress_RNASeqData/blob/bbcb5c436b0
 
 There are several naming conditions in the code file that differ from what was used in the final paper (and GEO/SRA data release):
 
-Adolescent Enrichment: EE=Social and Environmental ("Enhanced) Enrichment - sometimes just referred to as environmental enrichment in the code SE=Social Enrichment - referred to as EC or "cage enrichment" in the code NIL=Standard Housing
+Adolescent Enrichment: EE=Enhanced Enrichment - sometimes just referred to as environmental enrichment in the code, SE=Simple Enrichment - referred to as EC or "cage enrichment" in the code NIL=Standard Housing
 
-Bred Line: bLR=bred Low Responder rat line - sometimes just called LR in the code bHR=bred High Responder rat line - sometimes just called HR in the code
+Bred Line: bLR=bred Low Responder rat line - sometimes just called LR in the code, bHR=bred High Responder rat line - sometimes just called HR in the code
 
 
 All analyses should be ignored that include ultrasonic vocalization data (we eventually realized this data was recorded incorrectly - 10x differences in gain) or time in the center of the open field (we realized this data cannot be interpreted as usual in terms of exploration/anxiety because we used a non-standard protocol in which the rats were placed in the center at start of the test causing anxious animals to sometimes freeze in the center instead of showing traditional thigmotaxis).
