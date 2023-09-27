@@ -39,7 +39,7 @@ The code for the construction of the custom gene set database (Brain.GMT) is loc
 https://github.com/hagenaue/bHRbLR_Enrichment_Stress_RNASeqData/blob/bbcb5c436b09afda2ac462e8d6fec4b9b047fd73/Code_ImprovingGMTforSTRHC_forCodeRelease.R
 https://github.com/hagenaue/bHRbLR_Enrichment_Stress_RNASeqData/blob/bbcb5c436b09afda2ac462e8d6fec4b9b047fd73/Code_Gemma_NACC_HC_20210603_forRelease.R
 
-## Notes/Warnings:
+## Notes:
 
 There are several naming conditions in the code file that differ from what was used in the final paper (and GEO/SRA data release):
 
