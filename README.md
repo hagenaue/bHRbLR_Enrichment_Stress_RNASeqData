@@ -1,6 +1,6 @@
 # Code Repository: bHRbLR_Enrichment_Stress_RNASeqData
 
-This repository includes the code for the analysis of RNA-Seq data from the nucleus accumbens (NACC) and hippocampus (HC) within the publication "Adolescent environmental enrichment induces social resilience and alters neural gene expression in a selectively bred rodent model with anxious phenotype" by *Angela M. O'Connor, *Megan H. Hagenauer, Liam Cannon Thew Forrester, Pamela Maras, Keiko Arakawa, Huzefa Khalil, Evelyn R. Richardson, Elaine K. Hebda-Bauer, Farizah I. Rob, Yusra Sannah, Stanley J. Watson, Jr., Huda Akil. (DOI: TBA)
+This repository includes the code for the analysis of RNA-Seq data from the nucleus accumbens (NACC) and hippocampus (HC) within the publication "Adolescent environmental enrichment induces social resilience and alters neural gene expression in a selectively bred rodent model with anxious phenotype" by *Angela M. O'Connor, *Megan H. Hagenauer, Liam Cannon Thew Forrester, Pamela Maras, Keiko Arakawa, Elaine K. Hebda-Bauer, Huzefa Khalil, Evelyn R. Richardson, Farizah I. Rob, Yusra Sannah, Stanley J. Watson, Jr., Huda Akil. (DOI: TBA)
 
 This repository was created by Megan H. Hagenauer (ORCID: 0000-0002-3715-9475). This work was completed at the University of Michigan between 10/2019-09/2023.
 
